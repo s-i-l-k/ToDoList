@@ -1,3 +1,14 @@
 import '../styles.scss';
+import React from 'react';
 
-export default () => <div>Welcome to next.js!</div>
+class Box extends React.Component {
+    render () {
+        return (
+            <div className='container'>
+                <p>Test Box</p>
+            </div>
+        )
+    }
+}
+
+export default Box;
