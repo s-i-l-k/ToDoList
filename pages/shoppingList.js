@@ -14,7 +14,7 @@ class ShoppingList extends Component {
                 <h1>Shopping List</h1>
                 {buyItems.map((item, i) => {
                     return (
-                        <p key={item+i}>{item}</p>
+                        <button className="btn-danger" key={item+i}>{item}</button>    
                     )
                 })}
             </div>
