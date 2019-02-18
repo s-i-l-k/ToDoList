@@ -1,14 +1,13 @@
 import '../styles.scss';
 import React from 'react';
+import ShoppingList from './shoppingList';
 
-class Box extends React.Component {
+class App extends React.Component {
     render () {
         return (
-            <div className='container'>
-                <p>Test Box</p>
-            </div>
+            <ShoppingList />
         )
     }
 }
 
-export default Box;
+export default App;
